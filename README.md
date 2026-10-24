@@ -1,7 +1,24 @@
 
-# Agenda de Contatos
 
-Aplicação de console desenvolvida em C# para gerenciamento de contatos por meio de um menu interativo.
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+</p>
+
+<h1 align="center">Agenda de Contatos</h1>
+
+<p align="center">
+  Aplicação de console em C# para cadastro, consulta, edição e exclusão de contatos.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Ryan3103">
+    Desenvolvido por Ryan Gabriel
+  </a>
+</p>
+
+---
+
 
 ## Funcionalidades
 
