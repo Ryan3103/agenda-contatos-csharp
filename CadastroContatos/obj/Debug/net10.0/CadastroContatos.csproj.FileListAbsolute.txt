@@ -1,0 +1,15 @@
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\bin\Debug\net10.0\CadastroContatos.exe
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\bin\Debug\net10.0\CadastroContatos.deps.json
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\bin\Debug\net10.0\CadastroContatos.runtimeconfig.json
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\bin\Debug\net10.0\CadastroContatos.dll
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\bin\Debug\net10.0\CadastroContatos.pdb
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.AssemblyInfoInputs.cache
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.AssemblyInfo.cs
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.sourcelink.json
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.dll
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\refint\CadastroContatos.dll
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.pdb
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\CadastroContatos.genruntimeconfig.cache
+C:\Users\Ryan\Documents\ProjetosCsharp\CadastroContatos\obj\Debug\net10.0\ref\CadastroContatos.dll
