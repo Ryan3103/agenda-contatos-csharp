@@ -34,7 +34,6 @@ do
 
     opcao = int.Parse(Console.ReadLine());
 
-
     switch (opcao)
     {
         case 1:
@@ -149,6 +148,12 @@ do
         default:
             Console.WriteLine("Opção inválida");
             break;
+    }
+
+    if (opcao != 7)
+    {
+        Console.WriteLine("\nPressione ENTER para voltar ao menu...");
+        Console.ReadLine();
     }
 } while (opcao != 7);
 
