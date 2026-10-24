@@ -138,7 +138,38 @@ do
             break;
 
         case 6:
-            Console.WriteLine("Atualizar contato selecionado");
+            Console.WriteLine("Digite o ID do contato que deseja atualizar: ");
+            int idAtualizar = int.Parse(Console.ReadLine());
+
+            bool idEncontrar1;
+
+            idEncontrar1 = false;
+
+            foreach (Contato contato in contatos)
+            {
+                if (contato.Id == idAtualizar)
+                {
+                    Console.WriteLine("Digite o novo nome: ");
+                    string novoNome = Console.ReadLine();
+                    Console.WriteLine("Digite o novo telefone: ");
+                    string novoTelefone = Console.ReadLine();
+
+                    contato.Nome = novoNome;
+                    contato.Telefone = novoTelefone;
+
+                    idEncontrar1 = true;
+                }
+            }
+            if (idEncontrar1 == true)
+            {
+
+                Console.WriteLine("Contato atualizado com sucesso");
+            }
+
+            if (idEncontrar1 == false)
+            {
+                Console.WriteLine("Contato não encontrado");
+            }
             break;
 
         case 7:
