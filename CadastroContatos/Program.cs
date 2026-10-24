@@ -16,7 +16,6 @@ do
     Console.WriteLine("Sua opção: ");
     opcao = int.Parse(Console.ReadLine());
 
-
     switch (opcao)
     {
         case 1:
@@ -92,7 +91,32 @@ do
             break;
 
         case 5:
-            Console.WriteLine("Excluir contato selecionado");
+            Console.WriteLine("Digite o ID do contato que deseja excluir");
+            int idExcluir = int.Parse(Console.ReadLine());
+
+            bool idEncontrar;
+
+            idEncontrar = false;
+            Contato contatoExcluir = null;
+
+            foreach (Contato contato in contatos)
+            {
+                if (contato.Id == idExcluir)
+                {
+                    contatoExcluir = contato;
+
+                    idEncontrar = true;
+                }
+            }
+            if (idEncontrar == true)
+            {
+                contatos.Remove(contatoExcluir);
+                Console.WriteLine("Exclusão realizada");
+            }
+            if (idEncontrar == false)
+            {
+                Console.WriteLine("Contato não encontrado");
+            }
             break;
 
         case 6:
