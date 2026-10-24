@@ -5,16 +5,35 @@ int contador = 1;
 
 do
 {
-    Console.WriteLine("--- Agenda contatos ---");
-    Console.WriteLine("1.Novo contato");
-    Console.WriteLine("2.Listar contatos");
-    Console.WriteLine("3.Pesquisar por nome");
-    Console.WriteLine("4.Pesquisar nome por ID");
-    Console.WriteLine("5.Excluir contato");
-    Console.WriteLine("6.Atualizar contato");
-    Console.WriteLine("7.Sair");
-    Console.WriteLine("Sua opção: ");
+
+    Console.Clear();
+
+    Console.ForegroundColor = ConsoleColor.Magenta;
+
+    Console.WriteLine(@"    _   ___ ___ _  _ ___   _     ___  ___    ___ ___  _  _ _____ _ _____ ___  ___");
+    Console.WriteLine(@"   /_\ / __| __| \| |   \ /_\   |   \| __|  / __/ _ \| \| |_   _/_\_   _/ _ \/ __|");
+    Console.WriteLine(@"  / _ \ (_ | _|| .` | |) / _ \  | |) | _|  | (_| (_) | .` | | |/ _ \| || (_) \__ \");
+    Console.WriteLine(@" /_/ \_\___|___|_|\_|___/_/ \_\ |___/|___|  \___\___/|_|\_| |_/_/ \_\_| \___/|___/");
+
+    Console.ResetColor();
+
+    Console.WriteLine();
+    Console.ForegroundColor = ConsoleColor.Cyan;
+    Console.WriteLine("                    AGENDA DE CONTATOS");
+    Console.ResetColor();
+    Console.WriteLine();
+
+    Console.WriteLine("1. Novo contato");
+    Console.WriteLine("2. Listar contatos");
+    Console.WriteLine("3. Pesquisar por nome");
+    Console.WriteLine("4. Pesquisar por ID");
+    Console.WriteLine("5. Excluir contato");
+    Console.WriteLine("6. Atualizar contato");
+    Console.WriteLine("7. Sair");
+    Console.Write("Sua opção: ");
+
     opcao = int.Parse(Console.ReadLine());
+
 
     switch (opcao)
     {
