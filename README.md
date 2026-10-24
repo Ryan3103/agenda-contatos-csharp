@@ -1,38 +1,37 @@
-# 📒 Agenda de Contatos — C#
+# Agenda de Contatos em C#
 
-Aplicação de console desenvolvida em C# para gerenciamento de contatos, com funcionalidades de cadastro, consulta, atualização e exclusão.
+Aplicação de console desenvolvida em C# para gerenciamento de contatos, permitindo cadastrar, consultar, editar e excluir registros por meio de um menu interativo.
 
-Este projeto foi desenvolvido para praticar lógica de programação, orientação a objetos e manipulação de listas em C#.
+O projeto foi desenvolvido com o objetivo de praticar os fundamentos da linguagem C#, a manipulação de coleções e os conceitos iniciais de Programação Orientada a Objetos.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- **Cadastrar contato:** registra nome, telefone e ID automático.
-- **Listar contatos:** exibe todos os contatos cadastrados.
-- **Pesquisar por nome:** localiza contatos sem diferenciar letras maiúsculas e minúsculas.
-- **Pesquisar por ID:** busca um contato pelo seu identificador.
-- **Excluir contato:** remove um contato pelo ID.
-- **Atualizar contato:** permite modificar o nome e o telefone.
-- **Menu interativo:** navegação por opções no terminal.
+- **Cadastro de contatos:** registra nome e telefone, atribuindo um identificador automático.
+- **Listagem de contatos:** exibe os contatos cadastrados.
+- **Busca por nome:** localiza contatos sem diferenciar letras maiúsculas e minúsculas.
+- **Busca por ID:** consulta um contato pelo identificador.
+- **Edição de contatos:** permite atualizar nome e telefone.
+- **Exclusão de contatos:** remove um registro pelo ID.
+- **Menu interativo:** disponibiliza as operações por meio do terminal.
 
-## 🛠️ Tecnologias e conceitos
+## Tecnologias e conceitos aplicados
 
 - C#
 - .NET
-- Programação Orientada a Objetos (POO)
 - Classes, objetos e propriedades
-- `List<T>` e manipulação de coleções
-- Estruturas condicionais (`if/else` e `switch`)
-- Laços de repetição (`do-while` e `foreach`)
-- Busca, cadastro, atualização e exclusão de dados
+- Coleções com `List<T>`
+- Estruturas condicionais com `if/else` e `switch`
+- Laços de repetição com `do-while` e `foreach`
+- Manipulação de listas e operações de cadastro, consulta, atualização e exclusão (CRUD)
 
-## ▶️ Como executar
+## Como executar
 
 ### Pré-requisitos
 
-- [.NET SDK](https://dotnet.microsoft.com/download) instalado.
-- Git instalado para clonar o repositório.
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- [Git](https://git-scm.com/downloads)
 
-### Instalação
+### Instalação e execução
 
 1. Clone o repositório:
 
@@ -42,7 +41,7 @@ Este projeto foi desenvolvido para praticar lógica de programação, orientaç�
 
 2. Acesse a pasta do projeto:
 
-   ```powershell
+   ```bash
    cd agenda-contatos-csharp/CadastroContatos
    ```
 
@@ -52,18 +51,15 @@ Este projeto foi desenvolvido para praticar lógica de programação, orientaç�
    dotnet run
    ```
 
-
-> **Observação:** execute os comandos no terminal a partir da pasta em que deseja salvar o projeto. Se você já possui o projeto no computador, pode executá-lo diretamente na pasta que contém o arquivo `.csproj`.
-
-## 📌 Observações
+## Observações
 
 - Os contatos são armazenados em memória durante a execução.
-- Os dados não são preservados quando a aplicação é encerrada.
-- Os IDs são gerados automaticamente durante a execução.
+- Os registros são perdidos quando a aplicação é encerrada.
+- Os IDs são atribuídos automaticamente durante a execução.
 
-## 📚 Objetivo de aprendizagem
+## Objetivo do projeto
 
-Este projeto faz parte da minha jornada de estudos em C#, com foco no desenvolvimento da lógica de programação e na aplicação prática dos fundamentos da linguagem.
+Consolidar os fundamentos de C# por meio da construção de uma aplicação funcional, exercitando a lógica de programação, a organização do código e a manipulação de objetos e coleções.
 
 ---
 
