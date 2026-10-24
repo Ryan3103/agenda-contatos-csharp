@@ -1,14 +1,14 @@
 # 📒 Agenda de Contatos — C#
 
-Aplicação de console desenvolvida em C# para gerenciamento de contatos, com operações de cadastro, consulta, atualização e exclusão.
+Aplicação de console desenvolvida em C# para gerenciamento de contatos, com funcionalidades de cadastro, consulta, atualização e exclusão.
 
-O projeto foi criado com o objetivo de praticar lógica de programação, orientação a objetos e manipulação de listas em C#.
+Este projeto foi desenvolvido para praticar lógica de programação, orientação a objetos e manipulação de listas em C#.
 
 ## 🚀 Funcionalidades
 
 - **Cadastrar contato:** registra nome, telefone e ID automático.
 - **Listar contatos:** exibe todos os contatos cadastrados.
-- **Pesquisar por nome:** localiza contatos pelo nome, ignorando diferenças entre letras maiúsculas e minúsculas.
+- **Pesquisar por nome:** localiza contatos sem diferenciar letras maiúsculas e minúsculas.
 - **Pesquisar por ID:** busca um contato pelo seu identificador.
 - **Excluir contato:** remove um contato pelo ID.
 - **Atualizar contato:** permite modificar o nome e o telefone.
@@ -19,33 +19,41 @@ O projeto foi criado com o objetivo de praticar lógica de programação, orient
 - C#
 - .NET
 - Programação Orientada a Objetos (POO)
-- Classes e objetos
-- Propriedades
+- Classes, objetos e propriedades
 - `List<T>` e manipulação de coleções
 - Estruturas condicionais (`if/else` e `switch`)
 - Laços de repetição (`do-while` e `foreach`)
-- Busca e atualização de dados
+- Busca, cadastro, atualização e exclusão de dados
 
 ## ▶️ Como executar
 
-1. Instale o [.NET SDK](https://dotnet.microsoft.com/download).
-2. Clone este repositório:
+### Pré-requisitos
+
+- [.NET SDK](https://dotnet.microsoft.com/download) instalado.
+- Git instalado para clonar o repositório.
+
+### Instalação
+
+1. Clone o repositório:
 
    ```bash
-   git clone URL_DO_SEU_REPOSITORIO
+   git clone https://github.com/Ryan3103/agenda-contatos-csharp.git
    ```
 
-3. Entre na pasta do projeto:
+2. Acesse a pasta do projeto:
 
-   ```bash
-   cd NOME_DA_PASTA
+   ```powershell
+   cd agenda-contatos-csharp/CadastroContatos
    ```
 
-4. Execute a aplicação:
+3. Execute a aplicação:
 
    ```bash
    dotnet run
    ```
+
+
+> **Observação:** execute os comandos no terminal a partir da pasta em que deseja salvar o projeto. Se você já possui o projeto no computador, pode executá-lo diretamente na pasta que contém o arquivo `.csproj`.
 
 ## 📌 Observações
 
