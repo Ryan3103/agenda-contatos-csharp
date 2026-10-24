@@ -1,28 +1,26 @@
-# Agenda de Contatos em C#
 
-Aplicação de console desenvolvida em C# para gerenciamento de contatos, permitindo cadastrar, consultar, editar e excluir registros por meio de um menu interativo.
+# Agenda de Contatos
 
-O projeto foi desenvolvido com o objetivo de praticar os fundamentos da linguagem C#, a manipulação de coleções e os conceitos iniciais de Programação Orientada a Objetos.
+Aplicação de console desenvolvida em C# para gerenciamento de contatos por meio de um menu interativo.
 
 ## Funcionalidades
 
-- **Cadastro de contatos:** registra nome e telefone, atribuindo um identificador automático.
-- **Listagem de contatos:** exibe os contatos cadastrados.
-- **Busca por nome:** localiza contatos sem diferenciar letras maiúsculas e minúsculas.
-- **Busca por ID:** consulta um contato pelo identificador.
-- **Edição de contatos:** permite atualizar nome e telefone.
-- **Exclusão de contatos:** remove um registro pelo ID.
-- **Menu interativo:** disponibiliza as operações por meio do terminal.
+- Cadastro de contatos com nome, telefone e ID automático
+- Listagem de contatos
+- Busca por nome, sem diferenciar maiúsculas e minúsculas
+- Busca por ID
+- Edição de nome e telefone
+- Exclusão de contatos
 
-## Tecnologias e conceitos aplicados
+## Tecnologias e conceitos
 
 - C#
 - .NET
+- Programação Orientada a Objetos
 - Classes, objetos e propriedades
 - Coleções com `List<T>`
-- Estruturas condicionais com `if/else` e `switch`
-- Laços de repetição com `do-while` e `foreach`
-- Manipulação de listas e operações de cadastro, consulta, atualização e exclusão (CRUD)
+- Estruturas condicionais e laços de repetição
+- Operações CRUD
 
 ## Como executar
 
@@ -31,36 +29,36 @@ O projeto foi desenvolvido com o objetivo de praticar os fundamentos da linguage
 - [.NET SDK](https://dotnet.microsoft.com/download)
 - [Git](https://git-scm.com/downloads)
 
-### Instalação e execução
+### Instalação
 
-1. Clone o repositório:
+Clone o repositório:
 
-   ```bash
-   git clone https://github.com/Ryan3103/agenda-contatos-csharp.git
-   ```
+```bash
+git clone https://github.com/Ryan3103/agenda-contatos-csharp.git
+```
 
-2. Acesse a pasta do projeto:
+Entre na pasta do projeto:
 
-   ```bash
-   cd agenda-contatos-csharp/CadastroContatos
-   ```
+```bash
+cd agenda-contatos-csharp/CadastroContatos
+```
 
-3. Execute a aplicação:
+Execute a aplicação:
 
-   ```bash
-   dotnet run
-   ```
+```bash
+dotnet run
+```
 
 ## Observações
 
 - Os contatos são armazenados em memória durante a execução.
-- Os registros são perdidos quando a aplicação é encerrada.
+- Os dados são perdidos quando a aplicação é encerrada.
 - Os IDs são atribuídos automaticamente durante a execução.
 
-## Objetivo do projeto
+## Objetivo
 
-Consolidar os fundamentos de C# por meio da construção de uma aplicação funcional, exercitando a lógica de programação, a organização do código e a manipulação de objetos e coleções.
+Projeto desenvolvido para praticar lógica de programação, fundamentos de C# e conceitos iniciais de Programação Orientada a Objetos.
 
 ---
 
-Desenvolvido por **Ryan Gabriel**.
+Desenvolvido por [Ryan Gabriel](https://github.com/Ryan3103).
